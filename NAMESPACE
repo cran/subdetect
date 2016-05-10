@@ -1,0 +1,4 @@
+export(sample_size,
+       subgroup_detect)
+import(methods,
+       stats)
