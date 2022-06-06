@@ -1,8 +1,8 @@
-16e0a70b0e902dd6d69d0c53e444113c *DESCRIPTION
+c45857f85155f73a9b21cb205bc0c2e9 *DESCRIPTION
 ea14f98c5294f4ddab54bf18f682fb70 *NAMESPACE
 60223035002a1b79a03777bad519bd58 *R/sample_size.R
 8321a9a7af596d83468a82fcd98e4805 *R/subgroup_detect.R
 ca0297dd0d452c1b4da963cfc5f6b975 *R/zzz.R
 651e4c5deb43da4d543bb2dd0e19ba0e *man/sample_size.Rd
-0087a18e57f2a30e2749933d5c2f36ef *man/subdetect-package.Rd
+44ecce63a765201616afb0d471c43b01 *man/subdetect-package.Rd
 ea8ba1450b3501cf7dc2e9b081731f61 *man/subgroup_detect.Rd

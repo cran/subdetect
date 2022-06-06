@@ -13,9 +13,9 @@ A test for the existence of a subgroup with enhanced treatment effect and estima
 }
 }
 \author{
-Ailin Fan and Shannon Holloway,
+Ailin Fan and Shannon T. Holloway,
 
-Maintainer: Shannon Holloway \email{sthollow@ncsu.edu}
+Maintainer: Shannon T. Holloway \email{shannon.t.holloway@gmail.com}
 }
 \references{
 Ailin Fan, Rui Song, and Wenbin Lu, (2016).
