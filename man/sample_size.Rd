@@ -115,16 +115,17 @@ A list consisting of
          can be more robust.
 }
 \examples{
-model <- ~ x1
-theta0 <- c("(Intercept)" = 0.0, "x1" = 1.0)
-sample_size(outcome = ~ x1,
+model <- ~ x1 + x2
+theta0 <- c("(Intercept)" = 0.0, "x1" = 1.0, "x2" = 0.25)
+sample_size(outcome = ~ x1 + x2,
             theta0 = theta0,
             N = 1000,
             sigma2 = 0.25,
             tau = 0.25,
             K = 100, 
             M = 1000,
-            x1 = list(FUN=runif, min = -1, max = 1))
+            x1 = list(FUN=runif, min = -1, max = 1),
+            x2 = list(FUN=rnorm, mean = 0.0, sd = 0.75))
 }
 \references{
 Ailin Fan, Rui Song, and Wenbin Lu, (2016).

@@ -234,13 +234,13 @@ sample_size <- function(outcome,
   }
   Xrand <- NULL
   for( i in 1L:length(vars) ) {
-    tst <- names(formals(vars[[1L]]$FUN))
+    tst <- names(formals(vars[[i]]$FUN))
     if( !("n" %in% tst) ) {
       stop("Distribution functions must use formal 'n'.")
     }
     Xrand <- cbind(Xrand, 
-                   dist(FUN = vars[[1L]]$FUN, 
-                        c("n" = N, vars[[1L]][-1L])))
+                   dist(FUN = vars[[i]]$FUN, 
+                        c("n" = N, vars[[i]][-1L])))
   }
 
   #------------------------------------------------------------------#

@@ -1,0 +1,5 @@
+v1.3 release 2025-05-03
+
+* added authors@R field to DESCRIPTION
+* removed package.Rd file
+* bug fix in sample_size (improper cycle through distributions of ellipsis)
